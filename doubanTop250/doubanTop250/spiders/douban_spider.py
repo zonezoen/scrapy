@@ -2,8 +2,6 @@ import scrapy
 from scrapy.http import Request
 from scrapy.selector import Selector
 from urllib.parse import urljoin
-# import sys
-# sys.path.append("/Users/zone/Desktop/zone/work/featureTest/mScrapy/doubanTop250")
 from doubanTop250.items import Doubantop250Item
 
 class DoubanTop250Spider(scrapy.spiders.Spider):
@@ -39,6 +37,14 @@ class DoubanTop250Spider(scrapy.spiders.Spider):
     #
     # def logged_in(self, response):
     #     # 解析模拟登陆数据
+    #     pass
+    #
+    # def parse(self, response):
+    #     # 默认回调函数
+    #     pass
+    #
+    # def close(self,reson):
+    #     # 关闭时调用
     #     pass
 
 
