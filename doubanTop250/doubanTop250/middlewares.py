@@ -139,10 +139,6 @@ import random
 
 
 class ProxyMiddleware(object):
-    '''
-    设置Proxy
-    '''
-
     def __init__(self, ip):
         self.ip = ip
 

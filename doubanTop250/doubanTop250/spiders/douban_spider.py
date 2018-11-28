@@ -6,13 +6,45 @@ from urllib.parse import urljoin
 # sys.path.append("/Users/zone/Desktop/zone/work/featureTest/mScrapy/doubanTop250")
 from doubanTop250.items import Doubantop250Item
 
-class RecruitSpider(scrapy.spiders.Spider):
+class DoubanTop250Spider(scrapy.spiders.Spider):
     # 此处为上面留下的小坑
     name = "douban"
     # 设置允许爬取的域名
     allowed_domains = ["douban.com"]
     # 设置起始 url
     start_urls = ["https://movie.douban.com/top250"]
+
+    # # header信息
+    # my_header = {
+    #     'Host': 'www.douban.com',
+    #     'Referer': 'https://movie.douban.com',
+    # }
+    #
+    # # 表单需要提交的数据
+    # form_data = {'user': 'zone', 'pass': 'zone7'}
+    #
+    # # 自定义信息，向下层响应(response)传递下去
+    # customer_data = {'key1': 'value1', 'key2': 'value2'}
+    # def start_requests(self):
+    #     return [scrapy.FormRequest("https://movie.douban.com/login",
+    #                                formdata=self.form_data,  # 表单提交的数据
+    #                                headers=self.my_header,
+    #                                method='POST',  # GET or POST
+    #                                meta=self.customer_data,  # 自定义，向response传递数据
+    #                                errback=self.error_handle,
+    #                                callback=self.logged_in,
+    #                                # 如果需要多次提交表单，且url一样，那么就必须加此参数 dont_filter，防止被当成重复网页过滤掉了
+    #                                dont_filter=True
+    #                                )]
+    #
+    # def logged_in(self, response):
+    #     # 解析模拟登陆数据
+    #     pass
+
+
+
+
+
 
     # 每当网页数据 download 下来，就会发送到这里进行解析
     # 然后返回一个新的链接，加入 request 队列
