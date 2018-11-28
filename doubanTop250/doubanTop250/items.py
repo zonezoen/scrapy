@@ -16,3 +16,15 @@ class Doubantop250Item(scrapy.Item):
     star = scrapy.Field()  # 电影评分
     quote = scrapy.Field()  # 脍炙人口的一句话
     pass
+
+
+
+
+
+
+
+
+
+
+
+

@@ -11,11 +11,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="douban_spider.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="douban_spider.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/doubanTop250/spiders/douban_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="78" column="33" lean-forward="true" selection-start-line="78" selection-start-column="33" selection-end-line="78" selection-end-column="33" />
+            <state relative-caret-position="311">
+              <caret line="47" column="14" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="47" selection-end-column="14" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -53,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="items.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="items.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/doubanTop250/items.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            <state relative-caret-position="188">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="37" selection-end-column="83" />
               <folding />
             </state>
           </provider>
@@ -86,10 +86,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/doubanTop250/items.py" />
         <option value="$PROJECT_DIR$/doubanTop250/settings.py" />
         <option value="$PROJECT_DIR$/doubanTop250/middlewares.py" />
         <option value="$PROJECT_DIR$/doubanTop250/spiders/douban_spider.py" />
+        <option value="$PROJECT_DIR$/doubanTop250/items.py" />
       </list>
     </option>
   </component>
@@ -321,14 +321,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doubanTop250/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/doubanTop250/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -355,11 +347,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/doubanTop250/spiders/douban_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="78" column="33" lean-forward="true" selection-start-line="78" selection-start-column="33" selection-end-line="78" selection-end-column="33" />
+        <state relative-caret-position="311">
+          <caret line="47" column="14" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="47" selection-end-column="14" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubanTop250/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="37" selection-end-column="83" />
+          <folding />
         </state>
       </provider>
     </entry>

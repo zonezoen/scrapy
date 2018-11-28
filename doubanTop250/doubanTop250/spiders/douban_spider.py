@@ -52,6 +52,7 @@ class DoubanTop250Spider(scrapy.spiders.Spider):
 
 
 
+
     # 每当网页数据 download 下来，就会发送到这里进行解析
     # 然后返回一个新的链接，加入 request 队列
     def parse(self, response):
