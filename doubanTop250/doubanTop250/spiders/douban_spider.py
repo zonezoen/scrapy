@@ -56,7 +56,7 @@ class DoubanTop250Spider(scrapy.spiders.Spider):
     # 每当网页数据 download 下来，就会发送到这里进行解析
     # 然后返回一个新的链接，加入 request 队列
     def parse(self, response):
-        print(response.request.headers['User-Agent'])
+        # print(response.request.headers['User-Agent'])
         # print(response.body)
         # self.logger.info(response.body)
         item = Doubantop250Item()
@@ -74,10 +74,10 @@ class DoubanTop250Spider(scrapy.spiders.Spider):
                 quote = quote[0]
             else:
                 quote = ''
-            item['title'] = fullTitle
-            item['movieInfo'] = ';'.join(movieInfo)
-            item['star'] = star
-            item['quote'] = quote
+            item['title'] = fullTitle.strip()
+            item['movieInfo'] = ';'.join(movieInfo).strip()
+            item['star'] = star.strip()
+            item['quote'] = quote.strip()
             # print(fullTitle)
 
             # print(star)
@@ -89,6 +89,6 @@ class DoubanTop250Spider(scrapy.spiders.Spider):
         print(nextLink)
         print("=========================================")
         # 第10页是最后一页，没有下一页的链接
-        if nextLink:
-            nextLink = nextLink[0]
-            yield Request(urljoin(response.url, nextLink), callback=self.parse)
+        # if nextLink:
+        #     nextLink = nextLink[0]
+        #     yield Request(urljoin(response.url, nextLink), callback=self.parse)

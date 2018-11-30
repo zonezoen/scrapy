@@ -14,6 +14,11 @@ BOT_NAME = 'doubanTop250'
 SPIDER_MODULES = ['doubanTop250.spiders']
 NEWSPIDER_MODULE = 'doubanTop250.spiders'
 
+MONGO_URI = "localhost:27017/"
+DB_NAME = "zfdb"
+DB_USER = "username"
+DB_PASS = "123456"
+
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 
 import random
@@ -50,10 +55,10 @@ MY_USER_AGENT = [
 PROXIES = [
     "194.186.20.62:21231"
     , "66.153.222.162:54684"
-     # "219.234.5.128:3128"
+    # "219.234.5.128:3128"
     # , "117.114.149.66:53281"
     # , "117.114.149.66:53281"
-           ]
+]
 # 随机生成user agent
 # USER_AGENT = random.choice(MY_USER_AGENT)
 
@@ -100,7 +105,7 @@ DEFAULT_REQUEST_HEADERS = {
 DOWNLOADER_MIDDLEWARES = {
     'scrapy.downloadermiddleware.useragent.UserAgentMiddleware': None,
     'doubanTop250.middlewares.MyUserAgentMiddleware': 300,
-    'doubanTop250.middlewares.ProxyMiddleware': 543,
+    # 'doubanTop250.middlewares.ProxyMiddleware': 543,
 }
 
 # Enable or disable extensions
@@ -111,9 +116,12 @@ DOWNLOADER_MIDDLEWARES = {
 
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
-# ITEM_PIPELINES = {
-#    'doubanTop250.pipelines.Doubantop250Pipeline': 300,
-# }
+ITEM_PIPELINES = {
+    'doubanTop250.pipelines.MongoPipeline': 300,
+    'doubanTop250.pipelines.MysqlPipeline': 301,
+    'doubanTop250.pipelines.CsvPipeline': 302,
+    'doubanTop250.pipelines.JsonPipeline': 303,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
