@@ -22,19 +22,7 @@ class Analycis:
         self.zfdb = self.client.zfdb
         self.zfdb.authenticate("dbname", "password")
 
-    pinyinDir = {
-        "不限": "rent",
-        "宝安": "baoan",
-        "龙岗": "longgang",
-        "南山": "nanshan",
-        "福田": "futian",
-        "罗湖": "luohu",
-        "盐田": "yantian",
-        "龙华": "longhuaqu",
-        "坪山": "pingshanqu",
-        "光明": "guangmingxinqu",
-        "大鹏": "dapengxinqu",
-    }
+
 
     def get_area_from_net(self):
         session = requests.session()
