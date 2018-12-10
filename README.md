@@ -3,15 +3,15 @@
 
 ## doubanTop250
 此项目为 scrapy 初体验源码，相应的文章地址为：
-[爬虫利器初体验(1)](https://mp.weixin.qq.com/s/PIm98MmK2NUDip_WBhcv5Q)
-[听说你的爬虫又被封了(2)](https://mp.weixin.qq.com/s/8y4LWFYDTULYcFNlxKzAxA)
-[爬取数据不保存，就是耍流氓(3)](https://mp.weixin.qq.com/s/9hHteZdZDFFmH16kM_nHhQ)
+- [爬虫利器初体验(1)](https://mp.weixin.qq.com/s/PIm98MmK2NUDip_WBhcv5Q)
+- [听说你的爬虫又被封了(2)](https://mp.weixin.qq.com/s/8y4LWFYDTULYcFNlxKzAxA)
+- [爬取数据不保存，就是耍流氓(3)](https://mp.weixin.qq.com/s/9hHteZdZDFFmH16kM_nHhQ)
 
 ## rentHouseScrapy
 此项目为 scrapy 实战文章。
 ### 如何启动项目？
 文章地址：
-[爬取两万多租房数据，告诉你广州房租现状(4)](https://mp.weixin.qq.com/s/PhMocfb54ZHCFAwdyUe99Q)
+- [爬取两万多租房数据，告诉你广州房租现状(4)](https://mp.weixin.qq.com/s/PhMocfb54ZHCFAwdyUe99Q)
 开始抓取：
 clone 当前项目到你的电脑，安装好相应的依赖包，配置好数据库 ip 地址、账号、密码。
 进入到 rentHouseScrapy 目录，运行目录：
