@@ -14,12 +14,14 @@
 - [爬取两万多租房数据，告诉你广州房租现状(4)](https://mp.weixin.qq.com/s/PhMocfb54ZHCFAwdyUe99Q)
 
 开始抓取：
+
 clone 当前项目到你的电脑，安装好相应的依赖包，配置好数据库 ip 地址、账号、密码。
 进入到 rentHouseScrapy 目录，运行目录：
 ```
 scrapy crawl ftx
 ```
 分析数据：
+
 数据抓取完毕之后，进入到 analysis 目录下，直接运行文件，即可开始数据分析。
 
 ### 如何修改成自己所在城市的爬虫？
