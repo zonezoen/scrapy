@@ -18,23 +18,10 @@ class Analycis:
     areaList = []
 
     def __init__(self):
-        self.client = MongoClient('mongodb://118.25.222.89:37017')
+        self.client = MongoClient('mongodb://localhost:37017')
         self.zfdb = self.client.zfdb
-        self.zfdb.authenticate("zf", "123qweasd!")
+        self.zfdb.authenticate("zf", "password")
 
-    pinyinDir = {
-        "不限": "rent",
-        "宝安": "baoan",
-        "龙岗": "longgang",
-        "南山": "nanshan",
-        "福田": "futian",
-        "罗湖": "luohu",
-        "盐田": "yantian",
-        "龙华": "longhuaqu",
-        "坪山": "pingshanqu",
-        "光明": "guangmingxinqu",
-        "大鹏": "dapengxinqu",
-    }
 
     def get_area_from_net(self):
         session = requests.session()
