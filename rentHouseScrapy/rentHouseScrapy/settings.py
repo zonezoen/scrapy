@@ -15,7 +15,7 @@ SPIDER_MODULES = ['rentHouseScrapy.spiders']
 NEWSPIDER_MODULE = 'rentHouseScrapy.spiders'
 FEED_EXPORT_ENCODING = 'gb2312'
 
-MONGO_URI = ""
+MONGO_URI = "localhost:27017"
 DB_NAME = ""
 DB_USER = ""
 DB_PASS = ""

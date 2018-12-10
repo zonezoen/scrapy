@@ -48,16 +48,16 @@ class MongoPipeline(object):
         if item["region"] =="不限":
             item["region"] = item["address"][0:2]
 
-        self.zfdb[self.collection].insert({
-            "title": item["title"].strip(),
-            "rooms": item["rooms"],
-            "area": item["area"],
-            "price": item["price"],
-            "address": item["address"],
-            "traffic": item["traffic"],
-            "region": item["region"],
-            "direction": item["direction"],
-        })
+        # self.zfdb[self.collection].insert({
+        #     "title": item["title"].strip(),
+        #     "rooms": item["rooms"],
+        #     "area": item["area"],
+        #     "price": item["price"],
+        #     "address": item["address"],
+        #     "traffic": item["traffic"],
+        #     "region": item["region"],
+        #     "direction": item["direction"],
+        # })
         return item
 
 

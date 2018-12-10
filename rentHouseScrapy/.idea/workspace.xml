@@ -15,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ftx_spider.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ftx_spider.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rentHouseScrapy/spiders/ftx_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="94" selection-end-column="65" />
+            <state relative-caret-position="270">
+              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -27,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="analysis.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="analysis.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rentHouseScrapy/analysis/analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="294" column="40" lean-forward="true" selection-start-line="294" selection-start-column="40" selection-end-line="294" selection-end-column="40" />
+            <state relative-caret-position="240">
+              <caret line="20" column="66" lean-forward="true" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -49,8 +49,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rentHouseScrapy/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-420">
-              <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+            <state relative-caret-position="353">
+              <caret line="102" column="49" lean-forward="false" selection-start-line="102" selection-start-column="49" selection-end-line="102" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -59,8 +59,8 @@
       <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rentHouseScrapy/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+            <state relative-caret-position="358">
+              <caret line="50" column="25" lean-forward="false" selection-start-line="50" selection-start-column="25" selection-end-line="59" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -115,7 +115,10 @@
       <find>city</find>
       <find>span</find>
       <find>area</find>
+      <find>zu.fang.com</find>
       <find>DOWNLOAD_DELAY</find>
+      <find>gz</find>
+      <find>infl</find>
     </findStrings>
     <replaceStrings>
       <replace>http://gz.zu.fang.com</replace>
@@ -128,10 +131,10 @@
         <option value="$PROJECT_DIR$/rentHouseScrapy/items.py" />
         <option value="$PROJECT_DIR$/rentHouseScrapy/data.json" />
         <option value="$PROJECT_DIR$/rentHouseScrapy/middlewares.py" />
-        <option value="$PROJECT_DIR$/rentHouseScrapy/settings.py" />
         <option value="$PROJECT_DIR$/rentHouseScrapy/a.html" />
         <option value="$PROJECT_DIR$/rentHouseScrapy/test.py" />
         <option value="$PROJECT_DIR$/rentHouseScrapy/analysis/analysis.py" />
+        <option value="$PROJECT_DIR$/rentHouseScrapy/settings.py" />
         <option value="$PROJECT_DIR$/rentHouseScrapy/pipelines.py" />
         <option value="$PROJECT_DIR$/rentHouseScrapy/spiders/ftx_spider.py" />
       </list>
@@ -175,6 +178,18 @@
               <item name="rentHouseScrapy" type="b2602c69:ProjectViewProjectNode" />
               <item name="rentHouseScrapy" type="462c0819:PsiDirectoryNode" />
               <item name="rentHouseScrapy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rentHouseScrapy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rentHouseScrapy" type="462c0819:PsiDirectoryNode" />
+              <item name="rentHouseScrapy" type="462c0819:PsiDirectoryNode" />
+              <item name="analysis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rentHouseScrapy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rentHouseScrapy" type="462c0819:PsiDirectoryNode" />
+              <item name="rentHouseScrapy" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -267,7 +282,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32164448" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39177752" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4764208" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25679544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769045" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -370,16 +385,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rentHouseScrapy/analysis/analysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="294" column="40" lean-forward="true" selection-start-line="294" selection-start-column="40" selection-end-line="294" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rentHouseScrapy/analysis/output.jpeg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -417,28 +422,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rentHouseScrapy/pipelines.py">
+    <entry file="file://$PROJECT_DIR$/rentHouseScrapy/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+        <state relative-caret-position="353">
+          <caret line="102" column="49" lean-forward="false" selection-start-line="102" selection-start-column="49" selection-end-line="102" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rentHouseScrapy/settings.py">
+    <entry file="file://$PROJECT_DIR$/rentHouseScrapy/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-420">
-          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state relative-caret-position="358">
+          <caret line="50" column="25" lean-forward="false" selection-start-line="50" selection-start-column="25" selection-end-line="59" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rentHouseScrapy/spiders/ftx_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="94" selection-end-column="65" />
+        <state relative-caret-position="270">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rentHouseScrapy/analysis/analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="66" lean-forward="true" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
