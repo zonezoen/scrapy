@@ -1,8 +1,9 @@
 # scrapy
-关于 scrapy 的各种初体验
+关于 scrapy 的各种初体验，本项目会持续更新，直到 scrapy 系列推文结束更新。
 
 ## doubanTop250
-此项目为 scrapy 初体验源码，相应的文章地址为：
+此项目为 scrapy 初体验源码，关于豆瓣电影 Top 250 的爬虫文章，
+相应的文章地址为：
 - [爬虫利器初体验(1)](https://mp.weixin.qq.com/s/PIm98MmK2NUDip_WBhcv5Q)
 - [听说你的爬虫又被封了(2)](https://mp.weixin.qq.com/s/8y4LWFYDTULYcFNlxKzAxA)
 - [爬取数据不保存，就是耍流氓(3)](https://mp.weixin.qq.com/s/9hHteZdZDFFmH16kM_nHhQ)
@@ -10,7 +11,8 @@
 ## rentHouseScrapy
 此项目为 scrapy 实战文章。
 ### 如何启动项目？
-文章地址：
+此项目为 scrapy 实战文章，关于房天下广州租房数据的爬取与分析
+相应的文章地址为：
 - [爬取两万多租房数据，告诉你广州房租现状(4)](https://mp.weixin.qq.com/s/PhMocfb54ZHCFAwdyUe99Q)
 
 开始抓取：
