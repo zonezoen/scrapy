@@ -1,14 +1,14 @@
 # scrapy
 关于 scrapy 的各种初体验，本项目会持续更新，直到 scrapy 系列推文结束更新。
 
-## doubanTop250
+## doubanTop250 | 豆瓣爬虫
 此项目为 scrapy 初体验源码，关于豆瓣电影 Top 250 的爬虫文章，
 相应的文章地址为：
 - [爬虫利器初体验(1)](https://mp.weixin.qq.com/s/PIm98MmK2NUDip_WBhcv5Q)
 - [听说你的爬虫又被封了(2)](https://mp.weixin.qq.com/s/8y4LWFYDTULYcFNlxKzAxA)
 - [爬取数据不保存，就是耍流氓(3)](https://mp.weixin.qq.com/s/9hHteZdZDFFmH16kM_nHhQ)
 
-## rentHouseScrapy
+## rentHouseScrapy | 租房爬虫
 此项目为 scrapy 实战文章。
 ### 如何启动项目？
 此项目为 scrapy 实战文章，关于房天下广州租房数据的爬取与分析
@@ -29,7 +29,7 @@ scrapy crawl ftx
 ### 如何修改成自己所在城市的爬虫？
 修改 baseUrl = "http://gz.zu.fang.com/" 成你对应城市的地址就行。
 
-## girlScrapy
+## girlScrapy | 妹子图
 关于 scrapy 爬取图片的教程。此项目爬取了妹子图网站。
 
 ## 关注公众号【zone7】，获取最新推文。
