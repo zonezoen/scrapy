@@ -29,5 +29,8 @@ scrapy crawl ftx
 ### 如何修改成自己所在城市的爬虫？
 修改 baseUrl = "http://gz.zu.fang.com/" 成你对应城市的地址就行。
 
+## girlScrapy
+关于 scrapy 爬取图片的教程。此项目爬取了妹子图网站。
+
 ## 关注公众号【zone7】，获取最新推文。
 ![zone7](https://github.com/zonezoen/blog/blob/master/img/zone_qrcode.jpg)
