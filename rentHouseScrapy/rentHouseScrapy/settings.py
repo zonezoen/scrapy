@@ -15,10 +15,10 @@ SPIDER_MODULES = ['rentHouseScrapy.spiders']
 NEWSPIDER_MODULE = 'rentHouseScrapy.spiders'
 FEED_EXPORT_ENCODING = 'gb2312'
 
-MONGO_URI = "localhost:27017"
-DB_NAME = ""
-DB_USER = ""
-DB_PASS = ""
+MONGO_URI = "118.25.222.89:37017"
+DB_NAME = "zfdb"
+DB_USER = "zf"
+DB_PASS = "123qweasd!"
 MY_USER_AGENT = [
     'MSIE (MSIE 6.0; X11; Linux; i686) Opera 7.23',
     'iTunes/9.0.3 (Macintosh; U; Intel Mac OS X 10_6_2; en-ca)',

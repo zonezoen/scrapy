@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from scipy.misc import imread
 from bs4 import BeautifulSoup
 import os
-baseUrl = "http://gz.zu.fang.com"
+baseUrl = "http://km.zu.fang.com"
 import time
 from pymongo import MongoClient
 

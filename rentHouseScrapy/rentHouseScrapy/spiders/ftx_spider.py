@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 from rentHouseScrapy.items import RenthousescrapyItem
 
 class FtxSpider(scrapy.spiders.Spider):
-    baseUrl = "http://sz.zu.fang.com"
+    baseUrl = "http://km.zu.fang.com"
     allUrlList = []
     headUrlList = []
     name = "ftx"
