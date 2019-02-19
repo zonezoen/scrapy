@@ -12,3 +12,18 @@ class JingdongscrapyredisItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     pass
+
+
+class JdbookspiderItem(scrapy.Item):
+    # define the fields for your item here like:
+    # name = scrapy.Field()
+    book_sort = scrapy.Field()
+    book_cate = scrapy.Field()
+    book_cate_url = scrapy.Field()
+    book_img = scrapy.Field()
+    book_name = scrapy.Field()
+    book_author = scrapy.Field()
+    publish_time = scrapy.Field()
+    book_store = scrapy.Field()
+    book_sku = scrapy.Field()
+    book_price = scrapy.Field()
