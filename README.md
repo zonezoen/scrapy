@@ -45,3 +45,7 @@ clone 当前项目到你的电脑，安装好相应的依赖包，配置好数�
 
 ## doubanScrapyRedis | 分布式爬虫
 入口：直接运行 main.py 即可(请配置好你本地的 redis 数据库)
+
+
+## jingDongScrapyRedis | 京东图书，分布式爬虫
+入口：直接运行 main.py 即可(请配置好你本地的 redis 数据库)
