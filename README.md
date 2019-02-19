@@ -38,7 +38,7 @@ scrapy crawl ftx
 - [scrapy 也能爬取妹子图？(5)](https://mp.weixin.qq.com/s/427RSw9wBTzRVJi6w_PbGw)
 
 
-## 爬取QQ音乐周杰伦歌词与专辑
+## splashScrapy | 爬取QQ音乐周杰伦歌词与专辑
 入口：直接运行 main.py 即可
 
 相应的文章地址为：
