@@ -2,7 +2,10 @@ import scrapy
 from scrapy.http import Request
 from scrapy.selector import Selector
 from urllib.parse import urljoin
-from doubanTop250.items import Doubantop250Item
+from doubanTop250.items import Doubantop250Item,DoubanItemLoader
+# from urllib import parse
+# url = parse.urljoin("a","b")
+# 会提取 a 中的主域名，再拼接 b 地址。如果 b url 中有域名，则不会发生其他改变。如果没有，则会与 a url 进行拼接
 
 class DoubanTop250Spider(scrapy.spiders.Spider):
     # 此处为上面留下的小坑
@@ -61,6 +64,7 @@ class DoubanTop250Spider(scrapy.spiders.Spider):
         # self.logger.info(response.body)
         item = Doubantop250Item()
         selector = Selector(response)
+        print(response.xpath('/html/body/div[3]/div[1]/h1'))
         Movies = selector.xpath('//div[@class="info"]')
         # //*[@id="content"]/div/div[1]/ol/li[1]/div/div[2]/div[1]/a
         for eachMovie in Movies:
@@ -78,15 +82,22 @@ class DoubanTop250Spider(scrapy.spiders.Spider):
             item['movieInfo'] = ';'.join(movieInfo).strip()
             item['star'] = star.strip()
             item['quote'] = quote.strip()
-            # print(fullTitle)
-
-            # print(star)
-            # print(quote)
-            # print()
             yield item
-        nextLink = selector.xpath('//span[@class="next"]/link/@href').extract()
+
+        # scrapy 的高级用法
+        # item_loader = DoubanItemLoader(item=Doubantop250Item, response=response)
+        # item_loader.add_css('title', 'html.ua-mac.ua-ff65 body div#wrapper div#content h1')
+        # item_loader.add_xpath("star", '//div[@class="info"]/div[@class="bd"]/div[@class="star"]/span/text()')
+        # item_loader.add_xpath("quote", '//div[@class="info"]/div[@class="bd"]/p[@class="quote"]/span/text()')
+        # item_loader.add_xpath("movieInfo", '//div[@class="info"]/div[@class="bd"]/p/text()')
+        # print(item_loader)
+        # yield item_loader
+        # from w3lib.html import remove_tags
+
+
+        # nextLink = selector.xpath('//span[@class="next"]/link/@href').extract()
         print("=========================================")
-        print(nextLink)
+        # print(nextLink)
         print("=========================================")
         # 第10页是最后一页，没有下一页的链接
         # if nextLink:

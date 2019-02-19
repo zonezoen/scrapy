@@ -24,6 +24,7 @@ DB_PASS = "123456"
 import random
 
 MY_USER_AGENT = [
+    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
     'MSIE (MSIE 6.0; X11; Linux; i686) Opera 7.23',
     'iTunes/9.0.3 (Macintosh; U; Intel Mac OS X 10_6_2; en-ca)',
     'Opera/9.20 (Macintosh; Intel Mac OS X; U; en)',
@@ -117,9 +118,9 @@ DOWNLOADER_MIDDLEWARES = {
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    'doubanTop250.pipelines.MongoPipeline': 300,
-    'doubanTop250.pipelines.MysqlPipeline': 301,
-    'doubanTop250.pipelines.CsvPipeline': 302,
+    # 'doubanTop250.pipelines.MongoPipeline': 300,
+    # 'doubanTop250.pipelines.MysqlPipeline': 301,
+    # 'doubanTop250.pipelines.CsvPipeline': 302,
     'doubanTop250.pipelines.JsonPipeline': 303,
 }
 

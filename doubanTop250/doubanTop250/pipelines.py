@@ -112,6 +112,7 @@ class JsonPipeline(object):
     file_name = base_dir + '/doubanTop250/data.json'  # json 文件路径
 
     def process_item(self, item, spider):
+        print(item)
         file = open(self.file_name, 'r', encoding='utf-8')
         load_data = json.load(file)
         load_data.append({"title": item["title"].strip()})

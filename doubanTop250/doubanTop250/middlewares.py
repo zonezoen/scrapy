@@ -135,9 +135,6 @@ class MyUserAgentMiddleware(UserAgentMiddleware):
 import scrapy
 from scrapy import signals
 import random
-
-
-
 class ProxyMiddleware(object):
     def __init__(self, ip):
         self.ip = ip
