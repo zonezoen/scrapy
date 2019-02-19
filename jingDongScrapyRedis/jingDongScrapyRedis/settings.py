@@ -23,8 +23,7 @@ USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36
 SCHEDULER = "scrapy_redis.scheduler.Scheduler"
 # Ensure all spiders share same duplicates filter through redis.
 DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"
-# REDIS_URL = "redis://127.0.0.1:6379"
-REDIS_URL = "redis://118.25.222.89:6378"
+REDIS_URL = "redis://127.0.0.1:6379"
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'jingDongScrapyRedis (+http://www.yourdomain.com)'
