@@ -44,3 +44,5 @@ scrapy crawl ftx
 相应的文章地址为：
 - [scrapy遇上ajax，爬取QQ音乐周杰伦歌词与专辑(6)](https://mp.weixin.qq.com/s/BT7Chf2hN_53hG40m2SAWw)
 
+## doubanScrapyRedis | 分布式爬虫
+入口：直接运行 main.py 即可(请配置好你本地的 redis 数据库)
