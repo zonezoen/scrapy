@@ -14,11 +14,18 @@ BOT_NAME = 'doubanScrapyRedis'
 SPIDER_MODULES = ['doubanScrapyRedis.spiders']
 NEWSPIDER_MODULE = 'doubanScrapyRedis.spiders'
 
+# 队列是否持久保存， -- 为 False 的时候，关闭 redis 的时候，清空 redis
+SCHEDULER_PERSIST = True
+# Crawl responsibly by identifying yourself (and your website) on the user-agent
+USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
 # Enables scheduling storing requests queue in redis.
 SCHEDULER = "scrapy_redis.scheduler.Scheduler"
-
 # Ensure all spiders share same duplicates filter through redis.
 DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"
+# REDIS_URL = "redis://127.0.0.1:6379"
+REDIS_URL = "redis://118.25.222.89:6378"
+
+
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'doubanScrapyRedis (+http://www.yourdomain.com)'
