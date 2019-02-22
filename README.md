@@ -1,8 +1,6 @@
 # scrapy
 关于 scrapy 的各种初体验，本项目会持续更新，直到 scrapy 系列推文结束更新。
 
-## 关注公众号【zone7】，获取最新推文。
-![zone7](https://github.com/zonezoen/blog/blob/master/img/zone_qrcode.jpg)
 
 
 ## doubanTop250 | 豆瓣爬虫
