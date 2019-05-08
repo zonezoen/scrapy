@@ -1,3 +1,9 @@
+# 
+感谢关注，zone7 公众号，与您一起学习分享后端知识。本公众号涉及的知识点将会有：nodejs，python，docker，kubernetes，后端架构
+![zone7](https://github.com/zonezoen/blog/blob/master/img/zone_qrcode.jpg)
+
+
+
 # scrapy
 关于 scrapy 的各种初体验，本项目会持续更新，直到 scrapy 系列推文结束更新。
 
